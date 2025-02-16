@@ -1,0 +1,7 @@
+<distributionManagement>
+  <repository>
+    <id>test-test</id>
+    <name>test-test</name>
+    <url>https://test-168147676121.d.codeartifact.us-east-1.amazonaws.com/maven/test/</url>
+  </repository>
+</distributionManagement>
