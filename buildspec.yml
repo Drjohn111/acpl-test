@@ -1,21 +1,10 @@
 version: 0.2
 
 phases:
-  install:
-    runtime-versions:
-      nodejs: 22
-    commands:
-      - echo "Installing dependencies..."
-      - npm install
-     
-
   build:
     commands:
-      - echo "Building the Node.js application..."
-       - npm install -g npm
+      - mvn install
 
 artifacts:
   files:
-    - "**/*"
-  discard-paths: yes
-
+    - 'target/aws-codebuild.hpi'
