@@ -31,7 +31,7 @@
     <parent>
         <groupId>org.jenkins-ci.plugins</groupId>
         <artifactId>plugin</artifactId>
-        <version>3.50</version>
+        <version>4.65</version>
     </parent>
 
     <groupId>com.amazonaws</groupId>
@@ -44,7 +44,7 @@
 
     <properties>
         <jenkins.version>2.60.3</jenkins.version>
-        <java.level>8</java.level>
+        <java.level>11</java.level>
     </properties>
 
     <developers>
@@ -144,8 +144,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.3</version>
                 <configuration>
-                    <source>1.7</source>
-                    <target>1.7</target>
+                    <source>8</source>
+                    <target>8</target>
                 </configuration>
             </plugin>
             <plugin>
